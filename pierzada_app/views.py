@@ -10,7 +10,7 @@ def hello_there(request, name):
     print(request.build_absolute_uri()) #optional
     return render(
         request,
-        'netfam_app/hello_there.html',
+        'pierzada/hello_there.html',
         {
             'name': name,
             'date': datetime.now()
