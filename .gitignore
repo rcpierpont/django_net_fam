@@ -1,2 +1,2 @@
-.vscode/*
-/pierzada_app/__pycache__/*
+.vscode/
+pierzada_app/__pycache__/
