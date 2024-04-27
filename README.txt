@@ -1,11 +1,9 @@
-This project was started as a way for me to learn python. Maybe, if I stick with it, to create something useful that other people can use.
+This project was started as a way for me to learn python. 
 
-As of 4-21-2024 my idea for this project is a 'social media' webapp with a lot of the modern-day craziness of social media removed. 
+As of 4-21-2024 my idea for this project is a 'social media' webapp without a lot of the modern-day pain points social media. 
 
 Over the years I have become more distant with extended family that I care for very much, and it's become increasingly difficult to keep up
-with who uses what social media. Even then, a lot of that is filled with ads, people I don't remember, or frankly, people or content I don't care about.
-
-The solution I thought of was to make something of my own and invite the people I care about to use that. Maybe it'll catch on, maybe it won't, but worst-case scenario is I learn something from it so why not?
+with who uses what apps. Even then, a lot of that is filled with ads or content I don't care about. With this app, people will be able to trust that what they see is coming from people they know.
 
 Core features to implement (working list):
 - user registration, login and authentication over public internet (hosting solution TBD)
