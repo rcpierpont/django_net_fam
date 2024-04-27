@@ -6,7 +6,7 @@ from django.http import HttpResponse
 def home(request):
     return HttpResponse("Hello, Django!")
 
-print("http://127.0.0.1:8000/hello/pierzada")
+#print("http://127.0.0.1:8000/hello/pierzada")
 def hello_there(request, name):
     print(request.build_absolute_uri()) #optional
     return render(
