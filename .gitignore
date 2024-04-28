@@ -3,4 +3,3 @@ pierzada_app/__pycache__/
 web_project/__pycache__/
 pierzada_app/migrations/__pycache__/
 todo.txt
-db.sqlite3
