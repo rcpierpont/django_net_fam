@@ -1,4 +1,4 @@
-from django.urls import path
+from django.urls import include,path
 from pierzada_app import views
 from pierzada_app.models import LogMessage
 
@@ -10,8 +10,10 @@ home_list_view = views.HomeListView.as_view(
 
 urlpatterns = [
     path("", home_list_view, name="home"),
-    path("hello/<name>", views.hello_there, name="hello_there"),
     path("about/", views.about, name="about"),
     path("contact/", views.contact, name="contact"),
-    path("log/", views.log_message, name="log")
+    path("log/", views.log_message, name="log"),
+    path("image/", views.image, name="image"),
+    path("accounts/", include("django.contrib.auth.urls")),
+    path("logout/", views.logout_view, name="logout")
 ]

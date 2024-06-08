@@ -1,0 +1,9 @@
+{% extends "pierzada/layout.html" %}
+{% block title %}
+Image
+{% endblock %}
+{% block content %}
+<p>Trying to get image to show up.</p>
+{% load static %}
+<img src="{% static 'pierzada/capture.png' %}">
+{% endblock %}

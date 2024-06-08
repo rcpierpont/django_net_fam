@@ -4,6 +4,7 @@ from django.utils import timezone
 class LogMessage(models.Model):
     message = models.CharField(max_length=300)
     log_date = models.DateTimeField("date logged")
+    #image = models.ImageField(upload_to='uploads', default="none")
 
     def __str__(self):
         """Returns a string representation of a message."""
